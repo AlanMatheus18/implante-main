@@ -45,8 +45,6 @@ const Hero: React.FC = () => {
                 src={imghero}
                 alt="Pessoa sorrindo confiantemente após tratamento com implantes dentários"
                 className="w-full object-cover"
-                width="800"
-                height="600"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

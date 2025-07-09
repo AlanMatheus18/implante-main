@@ -1,23 +1,24 @@
 import React from 'react';
-import { User, Building, Crown } from 'lucide-react';
-import ponte from "../assets/imgs/PontesobreImplante.svg"
-import dente from "../assets/imgs/dente2.svg"
+import {  Building, Crown } from 'lucide-react';
+import ponte from "../assets/imgs/ponte.png"
+import dente from "../assets/imgs/dente05.png"
+import protcolo from "../assets/imgs/protocolo.png"
 const ImplantTypes: React.FC = () => {
   const implantTypes = [
     {
-      icon: <img src={dente} alt="" />,
+      icon: <img src={dente} alt="" className="w-16 h-16" />,
       title: "Implante Unitário",
       description: "Ideal para a substituição de um único dente perdido, sem comprometer os dentes vizinhos.",
       features: ["Preserva dentes adjacentes", "Procedimento minimamente invasivo", "Resultado natural"]
     },
     {
-      icon: <img src={ponte} alt="" />,
+      icon: <img src={ponte} alt="" className="w-16 h-16"/>,
       title: "Ponte sobre Implante",
       description: "Quando há a perda de múltiplos dentes adjacentes, implantes servem de suporte para uma ponte fixa.",
       features: ["Múltiplos dentes substituídos", "Maior estabilidade", "Economia de tempo"]
     },
     {
-      icon: <Building className="h-8 w-8 text-purple-700" />,
+      icon: <img src={protcolo} alt="" className="w-16 h-16"/>,
       title: "Protocolo Fixo",
       description: "Uma solução completa para quem perdeu todos os dentes de uma arcada, proporcionando uma prótese totalmente fixa.",
       features: ["Arcada completa", "Prótese totalmente fixa", "Resultado imediato"]
