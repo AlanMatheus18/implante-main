@@ -12,7 +12,7 @@ const ImplantTypes: React.FC = () => {
       features: ["Preserva dentes adjacentes", "Procedimento minimamente invasivo", "Resultado natural"]
     },
     {
-      icon: <img src={ponte} alt="" className="w-16 h-16"/>,
+      icon: <img src={ponte} alt="" className="w-20 h-20"/>,
       title: "Ponte sobre Implante",
       description: "Quando há a perda de múltiplos dentes adjacentes, implantes servem de suporte para uma ponte fixa.",
       features: ["Múltiplos dentes substituídos", "Maior estabilidade", "Economia de tempo"]
