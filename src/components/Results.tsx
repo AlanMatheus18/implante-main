@@ -1,23 +1,44 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-
+//import imgs
+import caso01antes from "../assets/imgs/Caso01Antes-Dg3aqSm1.webp";
+import caso01dps from "../assets/imgs/Caso01Dps-CD0LVCxV.webp";
+import caso02antes from "../assets/imgs/Caso2implantesantes-9Cd1JvRu.webp";
+import caso02dps from "../assets/imgs/Caso2implantedps-CgFoC6uU.webp";
+import caso03antes from "../assets/imgs/Caso3implantesantes-BC9Yicl2.webp";
+import caso03dps from "../assets/imgs/Caso3implantesdps-BAjEOBuU.webp";
+import caso04antes from "../assets/imgs/Caso4implantesantesofi-DVdmylY5.webp";
+import caso04dps from "../assets/imgs/Caso4implantesdps-C8q0I-Ak.webp";
+import caso05antes from "../assets/imgs/Caso05Antes-CZhjuwF7.webp";
+import caso05dps from "../assets/imgs/Caso5Dps-DB28eFer.webp";
+//
 const Results: React.FC = () => {
   const results = [
     {
-      before: "https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      after: "https://images.pexels.com/photos/3845700/pexels-photo-3845700.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      before: caso01antes,
+      after: caso01dps,
       description: "Paciente com perda de dentes frontais recupera a estética e a confiança"
     },
     {
-      before: "https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      after: "https://images.pexels.com/photos/3845700/pexels-photo-3845700.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      before: caso02antes,
+      after: caso02dps,
       description: "Restauração completa da arcada superior com protocolo fixo"
     },
     {
-      before: "https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      after: "https://images.pexels.com/photos/3845700/pexels-photo-3845700.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      before: caso03antes,
+      after: caso03dps,
       description: "Implante unitário devolvendo função mastigatória completa"
-    }
+    },
+    {
+      before: caso04antes,
+      after: caso04dps,
+      description: "Paciente com perda de dentes frontais recupera a estética e a confiança"
+    },
+    {
+      before: caso05antes,
+      after: caso05dps,
+      description: "Paciente com perda de dentes frontais recupera a estética e a confiança"
+    },
   ];
 
   return (

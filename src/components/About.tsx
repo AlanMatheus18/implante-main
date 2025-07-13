@@ -73,7 +73,7 @@ const About: React.FC = () => {
               <img
                 src={sobre}
                 alt="Infográfico mostrando a estrutura de um implante dentário"
-                className="w-full h-80 object-cover rounded-xl shadow-lg"
+                className="w-full h-[180px] object-cover rounded-xl shadow-lg"
                 width="600"
                 height="400"
                 loading="lazy"
