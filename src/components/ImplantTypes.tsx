@@ -3,6 +3,7 @@ import {  Building, Crown } from 'lucide-react';
 import ponte from "../assets/imgs/ponte.png"
 import dente from "../assets/imgs/dente05.png"
 import protcolo from "../assets/imgs/protocolo.png"
+import zigo from "../assets/imgs/implantes-zigo (1).svg"
 const ImplantTypes: React.FC = () => {
   const implantTypes = [
     {
@@ -24,7 +25,7 @@ const ImplantTypes: React.FC = () => {
       features: ["Arcada completa", "Prótese totalmente fixa", "Resultado imediato"]
     },
     {
-      icon: <Crown className="h-8 w-8 text-purple-700" />,
+      icon: <img src={zigo} alt="" className="w-16 h-16" />,
       title: "Implante Zigomático",
       description: "Alternativa para casos de grande perda óssea na maxila, utilizando o osso zigomático como suporte.",
       features: ["Casos complexos", "Sem necessidade de enxerto", "Técnica avançada"]
@@ -71,9 +72,11 @@ const ImplantTypes: React.FC = () => {
         </div>
 
         <div className="text-center">
+          <a href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93">
           <button className="bg-purple-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-purple-800 transition-colors transform hover:scale-105">
             Qual o Melhor Implante Para Mim?
           </button>
+          </a>
         </div>
       </div>
     </section>

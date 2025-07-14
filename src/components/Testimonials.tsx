@@ -1,30 +1,35 @@
 import React from 'react';
 import { Quote, Star } from 'lucide-react';
-
+//imgs perfil
+import perfil01 from "../assets/imgs/perfl01.webp";
+import perfil02 from "../assets/imgs/perfil02.webp";
+import perfil03 from "../assets/imgs/perfil03.webp";
+import perfil04 from "../assets/imgs/perfilMercia-BR-nj5wT.webp";
+//
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      name: "Maria S.",
-      image: "https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      text: "Eu não sorria há anos, e agora me sinto uma nova pessoa! A equipe foi incrível e o resultado superou minhas expectativas.",
+      name: "Tatiana Mota",
+      image: perfil01,
+      text: "Adorei conhecer a clínica, linda! Amei a tarde, um momento para recarregar as energias e se renovar. Uma delicia!",
       rating: 5
     },
     {
-      name: "João P.",
-      image: "https://images.pexels.com/photos/3845700/pexels-photo-3845700.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      text: "A mastigação melhorou 100%. É como ter meus dentes naturais de volta. Recomendo a todos que sofrem com a falta de dentes.",
+      name: "Shirleide Lima",
+      image: perfil02,
+      text: "Quero registrar meu elogio à Clínica Dental Sante pelo atendimento impecável. Fui recebida com acolhimento, cuidado e profissionalismo em cada detalhe.",
       rating: 5
     },
     {
-      name: "Ana L.",
-      image: "https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      text: "O atendimento foi excelente desde o primeiro contato. O processo foi mais simples do que imaginei e o resultado é fantástico.",
+      name: "Carla Campos",
+      image: perfil03,
+      text: "A clínica é sem duvida a melhor de Recife! Desde o atendimento até os tratamentos, altamente eficazes! Profissionais experientes, competentes e comprometidos.",
       rating: 5
     },
     {
-      name: "Carlos M.",
-      image: "https://images.pexels.com/photos/3845700/pexels-photo-3845700.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      text: "Fiz o protocolo fixo e minha vida mudou completamente. Posso comer de tudo novamente e sorrir sem constrangimento.",
+      name: "Mercia Rathunde",
+      image: perfil04,
+      text: "Sempre com o melhor atendimento, cuidado, carinho com os pacientes. Cada vez que minha família vai a uma consulta sai mais feliz do que chegou! Gratidão à toda a equipe que faz o Dental Santé!!!",
       rating: 5
     }
   ];
