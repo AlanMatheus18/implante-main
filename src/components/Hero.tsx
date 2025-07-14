@@ -38,9 +38,11 @@ const Hero: React.FC = () => {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 mb-8 mt-10">
+              <a href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93">
               <button className="bg-white text-purple-700 px-8 py-4 rounded-full font-semibold text-lg hover:bg-purple-50 transition-colors transform hover:scale-105">
                 Quero Recuperar Meu Sorriso Agora!
               </button>
+              </a>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-6 text-sm">

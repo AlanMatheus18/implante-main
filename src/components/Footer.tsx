@@ -135,7 +135,7 @@ const Footer: React.FC = () => {
             </p>
             
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="https://wa.me/5511999999999" 
+              <a href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93" 
                  target="_blank" 
                  rel="noopener noreferrer"
                  className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors flex items-center">
