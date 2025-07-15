@@ -16,12 +16,12 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img src={logo} alt="" className="" />
+              <img src={logo} alt="Logo Dental Santé" className="" />
             </div>
           </div>
 
-          <nav className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+          <nav className="hidden md:flex flex-1 justify-center">
+            <div className="flex space-x-8">
               <a
                 href="#sobre"
                 className="text-gray-900 hover:text-purple-700 px-3 py-2 text-sm font-medium transition-colors"
@@ -64,11 +64,11 @@ const Header: React.FC = () => {
           <div className="hidden md:flex items-center space-x-4">
             <a
               href="tel:+558193094-0025"
-              className="flex items-center text-purple-700 hover:text-purple-800 transition-colors"
+              className="flex items-center text-purple-700 hover:text-purple-800 transition-colors" 
               aria-label="Ligar para clínica"
             >
               <Phone className="h-5 w-5 mr-1" />
-              <span className="text-sm font-medium">(81)3094-0025</span>
+              <span className="text-sm font-medium">(81) 3094-0025</span>
             </a>
             <a
               href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
