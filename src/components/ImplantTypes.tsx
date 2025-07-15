@@ -25,7 +25,7 @@ const ImplantTypes: React.FC = () => {
       features: ["Arcada completa", "Prótese totalmente fixa", "Resultado imediato"]
     },
     {
-      icon: <img src={zigo} alt="" className="w-16 h-16" />,
+      icon: <img src={zigo} alt="" className="w-[90px] h-[90px]" />,
       title: "Implante Zigomático",
       description: "Alternativa para casos de grande perda óssea na maxila, utilizando o osso zigomático como suporte.",
       features: ["Casos complexos", "Sem necessidade de enxerto", "Técnica avançada"]

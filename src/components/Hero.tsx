@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
                 <div className="text-sm text-gray-600">Tratamentos Realizados</div>
               </div>
 
-              <div className="absolute -top-4 -right-4 bg-white md:block lg:hidden text-purple-700 p-6 rounded-xl shadow-lg">
+              <div className="absolute -top-4 -right-4 bg-white md:block lg:hidden text-purple-700 p-6 rounded-xl shadow-lg text-center">
                 <div className="text-3xl font-bold">+13</div>
                 <div className="text-sm text-gray-600">Anos de experiência</div>
               </div>
@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
               <div className="text-sm text-gray-600">Tratamentos Realizados</div>
             </div>
 
-            <div className="absolute -top-4 -right-4 bg-white text-purple-700 p-6 rounded-xl shadow-lg">
+            <div className="absolute -top-4 -right-4 bg-white text-purple-700 p-6 rounded-xl shadow-lg text-center">
               <div className="text-3xl font-bold">+13</div>
               <div className="text-sm text-gray-600">Anos de experiência</div>
             </div>
